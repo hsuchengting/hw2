@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>三欄式版面</title>
+    <style>
+        body{
+            background:beige;
+            margin:0 auto
+        }
+        header{
+            width:100%;
+            background:white;
+        }
+        footer{
+            width:100%;
+            background:white
+        }
+        .flexcontainer{
+            display:flex;
+            justify-content:space-around
+        }
+        .flexitem{
+            width: 32%;
+            height: 300px;
+            background: lightgreen
+
+        }
+    </style>
+</head>
+<body>
+
+    <header><h1>頁首</h1></header>
+
+    <div class="flexcontainer">
+        <div class="flexitem"><h1>區塊1</h1></div>
+        <div class="flexitem"><h1>區塊2</h1></div>
+        <div class="flexitem"><h1>區塊3</h1></div>
+    </div>
+
+    <header><h1>頁尾</h1></header>
+
+</body>
+</html>
